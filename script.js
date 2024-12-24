@@ -1,4 +1,4 @@
-// Adiciona um evento de clique ao botão
+// Adiciona um evento de clique ao botão 
 document.getElementById('generate-btn').addEventListener('click', () => {
  // Gera uma cor aleatória em formato hexadecimal
     const randomColor = `#${Math.floor(Math.random()*16777215).toString(16).padStart(6, '0')}`;
